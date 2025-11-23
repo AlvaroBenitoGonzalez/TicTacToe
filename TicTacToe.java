@@ -120,6 +120,7 @@ public class TicTacToe {
             CheckWin();
         } else if(finalResponse == 'n' || finalResponse == 'N'){
             System.out.println("Thanks for playing!");
+            return;
         }else {
             System.out.println("Invalid input. Please enter 'y' or 'n'.");
             PlayAgain();
